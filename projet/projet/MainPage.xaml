@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projet.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Coupe du monde 2022 !" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image Source="tunisie.png"/>
+        <Label Text="Tunisia" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="0" FontSize="Title" Padding="30,10,30,10"/>
+        <Image Source="dannemark.png"/>
+        <Label Text="Dannemark" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="0" FontSize="Title" Padding="30,10,30,10"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text=" 15/10/1998"/>
+                        <Span Text="Ta3adol" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+
+
+        </Label>
+
+        <StackLayout>
+
+            <Image Source="Australie.gid"/>
+            <Label Text="Australie" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="3" FontSize="Title" Padding="30,10,30,10"/>
+            <Image Source="tunisie.png"/>
+            <Label Text="Tunisie" FontSize="16" Padding="30,0,30,0"/>
+            <Label Text="0" FontSize="Title" Padding="30,10,30,10"/>
+            
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text=" 15/10/1998"/>
+                            <Span Text="AUstralie" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </StackLayout>
+
+        <StackLayout>
+            <Image Source="marocco.png"/>
+            <Label Text="marrocco" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="3" FontSize="Title" Padding="30,10,30,10"/>
+            <Image Source="dannemark.png"/>
+            <Label Text="dannemark" FontSize="16" Padding="30,0,30,0"/>
+            <Label Text="0" FontSize="Title" Padding="30,10,30,10"/>
+
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text=" 15/10/1998"/>
+                            <Span Text="cONGRATS MARROCCO" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+
+            </Label>
+        </StackLayout>
+
+        <StackLayout Padding="50">
+            <Button  Padding="50"
+                Text="Navigate to another page!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked"/>
+        </StackLayout>
+    </StackLayout>
+
+   
+
+</ContentPage>
